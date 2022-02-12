@@ -155,24 +155,24 @@ color: var(--main-grey);
 }
           /*Футер*/
 .footer {
-background-color: var(--footer-background);
-position: absolute;
-width: 1600px;
-height: 252px;
-color: var(--white-text);
-background: var(--footer-background)
+    background-color: var(--footer-background);
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    color: var(--white-text);
+    background: var(--footer-background)
 }
 .adress-location, .address-link {
     font-style: normal;
-font-family: var(--main-font);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .adress-location {
-color: var(--white-text)}
+    color: var(--white-text)}
 .address-link {
- color: rgba(255, 255, 255, 0.6);}
+        color: rgba(255, 255, 255, 0.6);}
 
  /*Портфолио*/
  .filter-btn {
@@ -187,20 +187,18 @@ color: var(--white-text)}
  }
  .filter-btn:hover, .filter-btn:focus {
     color: var(--white-text);
-    background: #2196F3;
- }
+    background: #2196F3;}
 .project-title {
     font-family: var(--main-font);
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--main-grey);
-}
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-grey);}
 .project-text {
-font-family: var(--main-font);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--main-color)}
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-color)}
