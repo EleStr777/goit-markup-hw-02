@@ -1,14 +1,91 @@
-
-
+:root {
+ /*Основные шрифты*/
+--main-font: Roboto, sans-serif;
+--sacondary-font: Raleway, sans-serif;
+ /*Цвет текста*/
+--main-color: #757575;
+--white-text: #FFFFFF;
+--select-color: #2196F3;
+--bleak-text: #000000;
+/*Цвет фона*/
+--main-background: #FFFFFF;
+--footer-background: #2F303A;
+--section-background: #F5F4FA;
+/*Цвет кнопок*/
+--activ-btn: #188CE8;
+}
 
 body {
-font-family: Roboto;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
+    color: var(--main-color);
+    background-color: var(--main-background);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
 }
+              /*Логотип*/
+.nav-logo-link, .footer-logo-link {
+    font-family: var(--sacondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;}
+.nav-logo-link {
+    color: var(--bleak-text);}
+.footer-logo-link {
+    color: var(--white-text);}
+.logo {
+    color: var(--select-color)}
+
+.team {
+    background-color: var(--section-background);
+}
+.performance-title, .team-caption {
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+/*.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;   
+}*/
+.link {
+    text-decoration: none;}
+.item {
+    list-style-type: none;}
+.nav-list {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212112;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--select-color);
+}
+/*Футер*/
+.footer {
+background-color: var(--footer-background);
+position: absolute;
+width: 1600px;
+height: 252px;
+color: var(--white-text);
+background: #2F303A;}
+.adress-location {
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 1);}
+.address-link {
+ color: rgba(255, 255, 255, 0.6);}
