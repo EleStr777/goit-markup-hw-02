@@ -55,10 +55,9 @@ body {
     list-style-type: none;}
 .nav-link {
 font-family: var(--main-font);
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-grey);
 }
@@ -67,6 +66,9 @@ color: var(--main-grey);
 }
 .nav-link:hover,
 .nav-link:focus, .contact-link:hover, .contact-link:focus {
+    color: var(--select-color);
+}
+.link.current {
     color: var(--select-color);
 }
          /*Герой*/
@@ -101,7 +103,6 @@ color: var(--white-text); }
     background-color: var(--select-color);
 }
 .hero-btn:hover, .hero-btn:focus {
-    font-weight: 400;
     background-color: var(--activ-btn);
 }
        /*Особенности*/
